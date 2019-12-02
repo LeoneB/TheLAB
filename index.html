@@ -51,7 +51,8 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>
+  </nav>
+
 <div class="main" id="page11">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
@@ -59,25 +60,34 @@
       <h2 id="headingtwo" >Running is for life, not just for January</h2>
    </p></div>
 
+   <img src="duck.jpg" alt="ducks" style="width:100%">
+         <script>
+         $(function () {
+           $(document).scroll(function () {
+             var $nav = $(".navbar-fixed-top");
+             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+           });
+         });
+         </script>
+
     <div class="main" id="page1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
-             <a id="ABOUT US" class="smooth"></a>
-             <h1>ABOUT US</h1>
-             <br>
-             <br>
-             <h2>History</h2>
+             <a class="smooth"></a>
+             <h1>History</h1>
              <p> Southampton Animal Resue Centre (SARC) was founded in 2005, by Robert G. Levinson. His goal was to rescue as many unwanted animals as possible around the Southampton area,
              and give them a safe place to live until their forever home was found. Today, over 500 animals are handed in to SARC every year, from tiny puppies to giant horses. If you are
              looking for a furry friend to complete your family, then look no further than the Southampton Animal Rescue Centre, to give a loving pet a second chance at a happy life.</p>
              <br>
              <br>
-             <h2>Our Mission</h2>
+             <h1>Our Mission</h1>
              <p> Our mission at the SARC is to ensure that as many unwanted animals are taken care of as possible, and that we are able to re-home them as fast as we can. We beleive that every
                animal deserves to fulfill a happy life, not only by being adopted, but through the care we give them at the SARC before they find their forever home. This care includes: seeing to
                any medical needs, providing warm blankets and plenty of meals, and daily walks and play time. By interacting with our team, it also helps the animals to gain better people skills,
                to ensure they're ready for their new life once adopted!
-            <h2>Reasons for Running!</h2>
+            <br>
+            <br>
+            <h1>Reasons for Running!</h1>
                <ul class="lists">
                    <li > A computer (always a good start)
                    <li > A text editor (I am using atom)
@@ -86,21 +96,40 @@
                </ul>
 
            </p></div>
+      <body>
+        <div class="main">
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        <a class="smooth"></a>
+      </div>
+      </body>
 
-     <img src="duck.jpg" alt="ducks" style="width:100%">
-           <script>
-           $(function () {
-             $(document).scroll(function () {
-               var $nav = $(".navbar-fixed-top");
-               $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-             });
-           });
-           </script>
+      <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      </head>
 
+      <body>
+      <div class="container mt-3">
+        <h2>Fill / Equal Widths</h2>
+        <p>Use .flex-fill on flex items to force them into equal widths:</p>
+        <div class="d-flex mb-3">
+          <div class="p-2 flex-fill bg-info">Flex item 1</div>
+          <div class="p-2 flex-fill bg-warning">Flex item 2</div>
+          <div class="p-2 flex-fill bg-primary">Flex item 3</div>
+        </div>
+
+      </body>
 
   <div class="main" id="page11">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
 Follow our twitter <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> here</a> <span class="Apple-converted-space"> </span></span></p>
 
 <a> Have any burning questions? </a>

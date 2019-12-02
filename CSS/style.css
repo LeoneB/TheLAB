@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color:#083D77;
   font-family: helvetica
 }
 
@@ -8,7 +8,7 @@ h1 {
 }
 
 .lists {
-  color:magenta
+  color:#ED6A5A
 }
 
 #headingtwo {
@@ -20,17 +20,6 @@ body {
   font-family: helvetica
 
 }
-
-#page1 {
-    color: white;
-    background-color: #FFC63F;
-    padding: 70px;
-    margin: 0px;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-}
-
-XXXXXXX
 
 html { scroll-behavior: smooth;}
 
@@ -77,7 +66,7 @@ body {
 
 #page1 {
   color: white;
-  background-color:#FFC63F;
+  background-color:#74A4BC;
   padding: 70px;
   margin: 0px;
   font-family: 'Noto Sans', sans-serif;
@@ -85,25 +74,25 @@ body {
 }
 
 #page1 h1  {
-  color: white;}
+  color: #E6F6F7;}
   #page1 h2  {
-    color: white;}
+    color: #E6F6F7;}
 
 #page11 {
-    color: blue;
-    background-color:#FFC63F;
+    color: turquoise;
+    background-color:#083D77;
     padding: 40px;
     margin: 0px;
     font-family: 'Helvetica', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
   }
 
 #page11 h1  {
-    color: white;}
+    color: #E6F6F7;}
     #page1 h2  {
-      color: white;}
+      color: #E6F6F7;}
 
-.button {
+#button {
     background-color: red;
     border: none;
     color: white;
