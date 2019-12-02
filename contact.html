@@ -1,5 +1,17 @@
 <html>
+<header>
+  <div class="main" id="home">
+   <img src="dog.jpg" alt="dogs" style="width:100%">
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+  </div>
 <body>
-  <a href="index.html">Home</a>
+  <a href="index.html">Back to Home</a>
   </body>
   </html>
