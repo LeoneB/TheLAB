@@ -1,17 +1,32 @@
 <html>
 <header>
-  <div class="main" id="home">
-   <img src="dog.jpg" alt="dogs" style="width:100%">
-<script>
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  <img src="duck.jpg" alt="ducks" style="width:100%">
+  <script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
   });
-});
-</script>
-  </div>
+  </script>
+
 <body>
+  <button class="btn">
   <a href="index.html">Back to Home</a>
+  </button>
   </body>
+
+  <body data-gr-c-s-loaded="true">
+  <header>
+    <div id="navbar">
+     <a href="index.html">HOME</a>
+     <a class="title" style="float:right" href="page.html">WEBSITE NAME</a>
+    </div>
+    <div class="container">
+     <img src="http://www.dobsonandrobinson.co.uk/images/product/shoppingb-1531213990.jpg" alt="trainer" style="width:100%">
+    <div class="top-left">Begin your running adventure, learn about it's benefits today</div>
+   </div>
+ </header>
+</body>
+</html>
   </html>

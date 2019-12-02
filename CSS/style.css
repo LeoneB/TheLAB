@@ -1,9 +1,6 @@
 h1 {
   color: blue;
-}
-
-#basetext {
-    color:pink;
+  font-family: helvetica
 }
 
 .list {
@@ -16,10 +13,107 @@ h1 {
 
 #headingtwo {
   font-style: italic;
-  font-family: arial
+  font-family: helvetica
 }
 
 body {
-  font-family: arial
+  font-family: helvetica
 
 }
+
+#page1 {
+    color: white;
+    background-color: #FFC63F;
+    padding: 70px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+XXXXXXX
+
+html { scroll-behavior: smooth;}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  ;
+}
+
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px;
+;
+
+}
+
+
+body {
+     margin: 0;
+     padding: 0;
+     }
+
+ #navbar  {
+       overflow: hidden;
+       background-color: rgba(105,105,105,0.85);
+     }
+
+
+     #navbar a{
+       float: left;
+       display: block;
+
+       color: white;
+       text-align: center;
+       padding: 16px 16px;
+       text-decoration: none;
+       font-family: 'Helvetica', sans-serif;
+       font-size: 19px;
+     }
+
+#page1 {
+  color: white;
+  background-color:#FFC63F;
+  padding: 70px;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+}
+
+#page1 h1  {
+  color: white;}
+  #page1 h2  {
+    color: white;}
+
+#page11 {
+    color: blue;
+    background-color:#FFC63F;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+  }
+
+#page11 h1  {
+    color: white;}
+    #page1 h2  {
+      color: white;}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+      transition: 0.3s;
+      display:block;
+      margin:0 auto;
+    font-size: 16px;
+    cursor: pointer;
+border-radius: 12px;}
