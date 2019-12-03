@@ -3,26 +3,6 @@ h1 {
   font-family: helvetica
 }
 
-.list {
-  color:green
-}
-
-.lists {
-  color:#ED6A5A
-}
-
-#headingtwo {
-  font-style: italic;
-  font-family: helvetica
-}
-
-body {
-  font-family: helvetica
-
-}
-
-html { scroll-behavior: smooth;}
-
 h1 {
   font-family: 'Helvetica', sans-serif;
   font-size: 32px;
@@ -36,7 +16,33 @@ h2 {
   font-size: 16px;
   text-align: center;
   padding: 0px;
-;
+  ;
+}
+
+h3 {
+  color:#A3E2CE;
+  font-family: helvetica
+  font-style: bold
+}
+
+
+.lists {
+  color:#D8FFF2
+}
+
+#headingtwo {
+  font-style: italic;
+  font-family: helvetica
+}
+
+#headingthree {
+  font-style: italic;
+  font-family: helvetica
+  color:#ED6A5A;
+}
+
+body {
+  font-family: helvetica
 
 }
 
@@ -52,31 +58,28 @@ body {
      }
 
 
-     #navbar a{
-       float: left;
-       display: block;
+ #navbar a{
+   float: left;
+   display: block;
 
-       color: white;
-       text-align: center;
-       padding: 16px 16px;
-       text-decoration: none;
-       font-family: 'Helvetica', sans-serif;
-       font-size: 19px;
-     }
+   color: white;
+   text-align: center;
+   padding: 16px 16px;
+   text-decoration: none;
+   font-family: 'Helvetica', sans-serif;
+   font-size: 19px;
+ }
+
+#page1 h2  {
+  color: #E6F6F7;}
 
 #page1 {
-  color: white;
-  background-color:#74A4BC;
-  padding: 70px;
-  margin: 0px;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 15px;
-}
-
-#page1 h1  {
-  color: #E6F6F7;}
-  #page1 h2  {
-    color: #E6F6F7;}
+    color: white;
+    background-color:#74A4BC;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+  }
 
 #page11 {
     color: turquoise;
@@ -89,20 +92,60 @@ body {
 
 #page11 h1  {
     color: #E6F6F7;}
-    #page1 h2  {
-      color: #E6F6F7;}
 
-#button {
-    background-color: red;
-    border: none;
+
+#page2 {
+    color: #B6D6CC;
+    background-color:#74A4BC;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 25px;
+  }
+
+#page3 {
     color: white;
+    background-color:#ED6A5A;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+  }
+
+#page3 h1  {
+    color: white;}
+
+#page4 {
+    color: #74A4BC;
+    background-color:#083D77;
     padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    opacity: 1;
-      transition: 0.3s;
-      display:block;
-      margin:0 auto;
-    font-size: 16px;
-    cursor: pointer;
-border-radius: 12px;}
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+  }
+
+#page4 h1  {
+    color: white;
+    font-size: 20px;
+  }
+
+#page11 {
+    color: turquoise;
+    background-color:#083D77;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+  }
+
+#page11 h1  {
+    color: #E6F6F7;}
+
+#navbar2{
+    color: #B6D6CC;
+    background-color:#083D77;
+    padding: 40px;
+    margin: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 25px;
+  }
