@@ -1,6 +1,7 @@
 h1 {
   color:#083D77;
   font-family: helvetica
+  font-size: 50px;
 }
 
 h1 {
@@ -149,3 +150,84 @@ body {
     font-family: 'Helvetica', sans-serif;
     font-size: 25px;
   }
+
+#page5 {
+    color: #083D77;
+    background-color:#E6F6F7;
+    padding: 10px;
+    margin: 150px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+  }
+
+#page5 h1  {
+    color: #083D77;
+    font-size: 30px;
+    font-style: italic;
+  }
+
+#page6 {
+      color: #083D77;
+      background-color:#A3E2CE;
+      padding: 20px;
+      margin: 80px;
+      font-family: 'Helvetica', sans-serif;
+      font-size: 20px;
+    }
+
+#page6 h1  {
+      color: #083D77;
+      font-size: 30px;
+      font-style: italic;
+    }
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.background-image {
+  background-image: url('http://upandhumming.com/wp-content/uploads/2016/12/happy-runners-819x1024.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
